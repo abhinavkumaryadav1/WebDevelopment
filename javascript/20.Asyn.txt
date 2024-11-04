@@ -1,0 +1,10 @@
+JS is a syncronous language 
+it works on single threads
+
+blocking code VS non-blocking code Aka sysncronous vs asyncronous
+
+the usecase makes each one effective over other
+
+syncronous says you have to wait until the other process finishes
+asyncronous says that you can continue  to do another performable task which another is being processed
+

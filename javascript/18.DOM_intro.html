@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Introduction</title>
+</head>
+<style> .bg-black{ background-color: #212121; color: white;} </style>
+
+<body class="bg-black">
+    
+    <div class="parent">
+         <div class="day">Monday</div>
+         <div class="day">Tuesday</div>
+         <div class="day">Wednesday</div>
+         <div class="day">Thursday</div>
+         <div class="day">Friday</div>
+         <div class="day">Saturday</div>
+         <div class="day">Sunday</div>
+    </div>
+</body>
+<script>
+let pdiv=document.querySelector('.parent')
+// console.log(pdiv.children[6].innerHTML);
+// console.log(pdiv.children);
+let htmlcoll = pdiv.children
+// console.log(htmlcoll);
+let htmlarr= Array.from(htmlcoll)
+// console.log(htmlarr);
+
+htmlarr.forEach((val) => {
+    // console.log(val.innerHTML);
+    val.style.color  ='red' 
+})
+// console.log(pdiv.firstElementChild);
+// console.log(pdiv.lastElementChild);
+const temp = document.querySelector('.day')
+// console.log(temp.parentElement);
+// console.log(temp.nextElementSibling);
+console.log("node", pdiv.childNodes);
+
+
+
+                              
+    </script>
+</html>

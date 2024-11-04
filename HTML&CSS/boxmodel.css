@@ -1,0 +1,77 @@
+/* div{
+height: 30px;
+width: 30px;
+color:red;
+text-align: center;  */
+/* background-color: antiquewhite; */
+
+/* border: 10px pink; */
+/* border-style: dotted; */
+/* border-width: 10px; */
+/* border-radius: 20px; */
+
+
+
+/* padding-left: 25px;
+padding-right: 25px;
+padding-top: 25px;
+padding-bottom: 25px;
+
+margin-top: 25px; */
+
+
+/* } */
+
+/* span{
+
+height: 30px;
+width: 30px;
+color:red;
+text-align: center; */
+/* background-color: antiquewhite; */
+
+/* border: 10px pink; */
+/* border-style: dotted; */
+/* border-width: 10px; */
+/* border-radius: 20px; */
+
+
+
+/* padding-left: 25px;
+padding-right: 25px;
+padding-top: 25px;
+padding-bottom: 25px;
+
+margin-top: 25px; */
+
+/* #logo{
+
+    text-align: left;
+    color: orange;
+    
+} */
+*{
+    margin:0 ;
+    padding:0 ;
+    color: white;
+}
+#navbar{
+    height: 60px;
+   background-color: #0f1111;
+
+    
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 65px;
+    text-decoration: none;
+}
+
+/*above is the example of amazon nav bar*/

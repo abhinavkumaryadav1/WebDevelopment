@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur code </h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const btao = function(){
+        console.log("hello", Date.now());
+        
+    }
+// setInterval(btao,1000) -->jitna time doge timeout ka utne me task repeatedly perform karta rahega
+// it can take third parameter as well which goes to function as parameter
+var interv //asigned globally to be used in both function scope
+let startbut = document.querySelector('#start')
+startbut.addEventListener('click',function(){
+     interv=setInterval(btao,1000)
+})
+let stopbut = document.querySelector('#stop')
+stopbut.addEventListener('click',function(){
+    clearInterval(interv) //same as cleartimeout stops the effect of interval
+})
+
+</script>
+</html>

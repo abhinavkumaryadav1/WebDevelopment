@@ -1,0 +1,24 @@
+div{
+  
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border:2px solid black;
+    transition-property: all e;
+    transition-duration: 4s;
+    transition-timing-function: steps(3);
+    transition: ease-in;
+
+}
+
+div:hover{
+    /* top: 100px;
+    left: 100px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg); */
+    transform: translate(200px,150px);
+    /* transform: skew(40deg); */
+    
+}

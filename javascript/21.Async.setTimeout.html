@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur code</code></h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    //setTimeout is-> ek baar mujhe time bata do aur kya karna hai bata do mai ek baar wo kam kar dunga(setInterval me similar hota hai bs har timeperiod me wo task karta rehta hai)
+    setTimeout(function(){
+        // alert("this is timeout function()");
+        
+    },3000) // two parameters handeler and timeout(handeler can be function or refrence and timeout is the time after which it does the task)
+
+    
+     let changeme = setTimeout(function(){
+        document.querySelector('h1').innerHTML ="code aur chai"
+     },3000)
+
+     let stopbut=document.querySelector('#stop')
+     stopbut.addEventListener('click',function(){
+        clearTimeout(changeme) //stops the effect of timeout
+     })
+
+</script>
+</html>

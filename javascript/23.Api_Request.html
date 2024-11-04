@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outer">
+        <div class="pic">
+          <img class="kkk111" src="" alt="abhi pic">
+        </div>
+        <div class="follower">
+
+        </div>
+    </div>
+    
+</body>
+<script>
+let photoblock = document.querySelector('.pic')
+// this is how you fetch data from api
+
+ let requestId = 'https://api.github.com/users/abhinavkumaryadav1' // step 1
+ const xhr = new XMLHttpRequest // step 2
+ xhr.open('GET',requestId) // step 3
+
+//  xhr.onreadystatechange = function(){    // #### some usecases ####
+
+//      console.log(xhr.readyState);
+//      if (xhr.readyState  === 4) {
+//      let data = JSON.parse(this.responseText )
+//         console.log(`the follower of this userrrr are : ${data.followers}`); 
+//      }
+//  }
+
+//    ####    ASSIGNMENT OF CARD FOR DP AND FOLLOWERS ####
+
+//  xhr.onreadystatechange = function(){
+//     if(xhr.readyState ===4){
+//  let data1 = JSON.parse(this.responseText )
+//  let data2 = data1.avatar_url
+//  console.log(data2);
+
+//  document.querySelector('.kkk111').setAttribute("src",data2)
+ 
+// }}
+
+
+
+
+
+ xhr.send() // step 4
+
+
+
+
+</script>
+</html>
