@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Card({username,btnText}) {   
+export default function Card({username,btnText}) {   //handeling of the variables sent by the app.jsx
  
     return (
     <div className="max-w-xs rounded-md shadow-md bg-black text-gray-100">
