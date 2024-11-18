@@ -21,7 +21,7 @@ export default function Card({username,btnText}) {   //handeling of the variable
         type="button"
         className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-gray-800 text-gray-200"
       >
-        {btnText}
+        {btnText ||   "unknown"}  /*in case where someone does'nt put value for btntext the deafult will appear */
       </button>
     </div>
   </div>
