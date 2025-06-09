@@ -1,7 +1,7 @@
 import { useState,useCallback,useEffect, useRef } from 'react'
 
 
-function App() {
+function App() {   
   let [length,setlenght] = useState(8)
   let [numberAllowed,setnumberAllowed] = useState(false)
   let [charAllowed,setCharAllowed] = useState(false)
@@ -20,7 +20,7 @@ function App() {
   for (let i = 1; i <=length; i++) {
     let char = Math.floor(Math.random()*str.length+1)
     pass += str.charAt(char)
-
+   
     
   }
   

@@ -5,3 +5,5 @@ console.log(typeconversion_1)
 console.log(typeof(typeconversion_1))
 // var_1=Number(var_1)
 // console.log(var_1);
+// console.log("it is a ",typeof(NaN));
+// console.log(typeof(null))
