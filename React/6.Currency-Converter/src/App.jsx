@@ -73,7 +73,8 @@ const convert = () =>{
                                 currencyOptions={options}
                                 onCurrencyChange={(currency)=>{setTo(currency)}}
                                   selectCurrency={to}
-                                  amountDisable />
+                                 amountDisable />    {/* number increase aur decrease karne ka button */}
+
                                   
                         </div>
 
